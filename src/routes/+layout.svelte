@@ -27,7 +27,7 @@
   <script>
     const nav = [
     {
-      title: 'Обо мне',
+      title: 'О нас',
       href: '/about',
       isShow: true,
     },
