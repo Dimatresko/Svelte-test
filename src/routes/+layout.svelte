@@ -1,12 +1,12 @@
 <nav>
+
     <div class="nav-container">
-      <a href="/" class="nav-logo" title="Back to Homepage">Инженерия</a>
-      <div class="nav-links">
-        <a href="/about" class="link">О нас</a>
-        <a href="/blog" class="link">Блог</a>
-        <a href="/projects" class="link">Портфолио</a>
-        <a href="/contact" class="link">Контакты</a>
-      </div>
+        <a href="/" class="nav-logo" title="Back to Homepage">Инженерия</a>
+        <div class="nav-links">
+          {#each nav as link}
+          <a href={link.href} class="link">{link.title}</a>
+          {/each}
+        </div>
     </div>
   </nav>
   <div class="container">
