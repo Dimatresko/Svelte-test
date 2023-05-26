@@ -31,21 +31,20 @@ function complete(index) {
         <input bind:value={newItem} placeholder="Enter to-do" />
         <button class="add-todo" on:click={add}><span>+</span></button>
     </form>
+
     <div class="todos">
       {#each todoList as item, index}
           <div class="todo" class:completed={item.completed}></div>
             <span class="todo__text">{item.task}</span>
-              <div class="todo__buttons">
+                <div class="todo__buttons">
                   <button class="complete" on:click={() => complete(index)}>
                     <Icon name="check-mark" />
                   </button>
                   <button class="delete" on:click={() => remove(index)}>
                     <Icon name="delete" />
                   </button>
-              </div>
-          
-  
-      {/each}
+                </div>          
+       {/each}
   </div>     
 </main>
 
