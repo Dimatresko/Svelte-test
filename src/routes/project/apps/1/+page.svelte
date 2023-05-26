@@ -30,7 +30,23 @@
     <form on:submit|preventDefault={add}>
         <input bind:value={newItem} placeholder="Enter to-do" />
         <button class="add-todo" on:click={add}><span>+</span></button>
-    </form>     
+    </form>
+    <div class="todos">
+      {#each todoList as item, index}
+          <div class="todo" class:completed={item.completed}></div>
+            <span class="todo__text">{item.task}</span>
+              <div class="todo__buttons">
+                  <button class="complete" on:click={() => complete(index)}>
+                    <Icon name="check-mark" />
+                  </button>
+                  <button class="delete" on:click={() => remove(index)}>
+                    <Icon name="delete" />
+                  </button>
+              </div>
+          
+  
+      {/each}
+  </div>     
 </main>
 <style>
     main {
@@ -43,11 +59,11 @@
       background: antiquewhite;
     }
     form {
-      width: 100%;
-      max-width: 500px;
-      display: flex;
-      align-items: center;
-      margin-bottom: 1rem;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
     }
 
     input {
@@ -129,20 +145,4 @@
 
 
 </style>
-<div class="todos">
-    {#each todoList as item, index}
-        <div class="todo" class:completed={item.completed}></div>
-	        <span class="todo__text">{item.task}</span>
-            <div class="todo__buttons">
-                <button class="complete" on:click={() => complete(index)}>
-                  <Icon name="check-mark" />
-                </button>
-                <button class="delete" on:click={() => remove(index)}>
-                  <Icon name="delete" />
-                </button>
-            </div>
-        
-
-    {/each}
-</div>
 
