@@ -30,9 +30,7 @@
     <form on:submit|preventDefault={add}>
         <input bind:value={newItem} placeholder="Enter to-do" />
         <button class="add-todo" on:click={add}><span>+</span></button>
-    </form>
-
-      
+    </form>     
 </main>
 <style>
     main {
