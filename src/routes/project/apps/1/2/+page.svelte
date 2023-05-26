@@ -1,4 +1,4 @@
-<h1>Учет расходов</h1>
+<h1>Учет расходв</h1>
 
 <form on:submit|preventDefault={addExpense}>
  <label for="name">Название:</label>
@@ -33,21 +33,21 @@
  let newName = '';
  let newAmount = '';
 
- function addExpense() {
-  const obj = {
-   name: newName,
-   amount: parseInt(newAmount),
-  };
-  expenses.push(obj);
-  expenses = expenses;
-  newName = '';
-  newAmount = '';
- }
+    function addExpense() {
+     const obj = {
+      name: newName,
+      amount: parseInt(newAmount),
+    };
+      expenses.push(obj);
+      expenses = expenses;
+      newName = '';
+      newAmount = '';
+    }
 
- function deleteExpense(index) {
-  expenses.splice(index, 1);
-  expenses = expenses;
- }
+    function deleteExpense(index) {
+     expenses.splice(index, 1);
+     expenses = expenses;
+    }
 </script>
 
 <style>
