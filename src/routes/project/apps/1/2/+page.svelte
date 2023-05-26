@@ -1,4 +1,4 @@
-<h1>Учет расходв</h1>
+<h1>Учет расходов</h1>
 
 <form on:submit|preventDefault={addExpense}>
  <label for="name">Название:</label>
