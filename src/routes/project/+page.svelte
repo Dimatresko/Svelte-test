@@ -1,3 +1,7 @@
+<script>
+    import { routes } from './routes.js';
+</script>
+
 <svelte:head>
   <title>Портфолио</title>
 </svelte:head>
@@ -18,10 +22,6 @@
         {/each}
     </div>
 </div>
-
-<script>
-    import { routes } from './routes.js';
-</script>
 
 
 <style>
