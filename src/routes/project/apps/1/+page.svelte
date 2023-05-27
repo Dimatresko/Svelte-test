@@ -46,7 +46,7 @@ function complete(index) {
           </div>
         </div>
         {/each}
-      </div>              
+      </div>           
 </main>
 
 <style>
