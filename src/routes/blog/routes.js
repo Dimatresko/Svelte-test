@@ -1,13 +1,13 @@
 export const routes = [
     {
       id: 1,
-      title: 'My First Blog Post',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
+      title: 'Как мы тренируемся, чтобы стать профессиональными инженерами',
+      body: 'В этой записи мы поделимся с вами нашим опытом тренировок и планирования дневного режима для достижения цели стать профессиональными инженерами. Мы расскажем, какие упражнения мы выполняем, какое оборудование используем, и какие методы мотивации помогают нам сохранять дисциплину.',
     },
     {
       "id": 2,
-      "title": "My Second Blog Post",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate"
+      "title": "Как мы учимся языку программированию на Python",
+      "body": "В этой записи мы расскажем о своем интересе к информационным технологиям и о том, как мы учим язык программирования Python. Мы поделимся с вами своими опытоми использования онлайн-курсов и ресурсов для самостоятельного обучения, а также о том, как мы применяем свои знания в повседневной жизни."
     },
     
   ];
