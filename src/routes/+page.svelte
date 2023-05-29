@@ -1,5 +1,5 @@
 <svelte:head>
-<title>Инженерия.RU</title>
+<title>Девятиклассники.RU</title>
 </svelte:head>
 
 <div class='container'>
@@ -8,12 +8,12 @@
             <div class='container info-container'>
                 <div class='info-text'>
                     <h1>
-                        <p class='animate-text-1'>Сайт будущих инженеров,</p>
-                        <p class='text-2'>Константина, Никиты и Павла</p>
+                        <p class='animate-text-1'>Сайт будущих программистов,</p>
+                        <p class='text-2'>Вадима, Александра и Даниила</p>
                     </h1>
                 </div>
                 <h2 class='subtitle'>
-                    Только здесь вы увидете наши опыты, пробы, блоги и историю. Этот сайт разрабатывали Константин, Никита и Павел. Он создан для аудитории, которые стремятся познать инженерию.
+                    Только здесь вы увидете наши блоги и историю. Этот сайт создан для аудитории, которые стремятся познать программирование в дальнейшем, также скорым временем будет создан форум, где пользователи смогут задать любой вопрос связанный с программированием.
                 </h2>
                 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
                 <div style='color:black' class='scroll-button animate-scroll' tabindex='0'>
