@@ -9,7 +9,7 @@
                 <div class='info-text'>
                     <h1>
                         <p class='animate-text-1'>Сайт будущих программистов,</p>
-                        <p class='text-2'>Вадима, Александра и Даниила</p>
+                        <p class='text-2'>Вадима, Александры и Даниила</p>
                     </h1>
                 </div>
                 <h2 class='subtitle'>
